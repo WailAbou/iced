@@ -86,8 +86,8 @@ where
         }
     }
 
-    /// Sets the message that should be produced when some text is typed into
-    /// the [`TextInput`] of the [`ComboBox`].
+    /// Sets the message that will be produced when the inside area
+    /// of the [`ComboBox`] is pressed.
     pub fn on_focus(mut self, message: Message) -> Self {
         self.on_focus = Some(message);
         self
